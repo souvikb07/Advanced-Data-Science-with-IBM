@@ -1,0 +1,22 @@
+Programming Assignment: Programming Assignment 3
+You have not submitted. You must earn 1/1 points to pass.
+Deadline	
+Pass this assignment by January 20, 11:59 PM PST
+InstructionsMy submissionDiscussions
+In this assignment you will
+
+Create an python based jupyter notebook using ApacheSpark on DataScience Experience
+Access the previously stored data in Cloudant
+Calculate the minimum and maximum temperature
+Calculate the first four statistical moments on temperature (mean, standard deviation, skew, kurtosis)
+Calculate the correlation between temperature and hardness
+An up to date version of grading environment setup is maintained here
+
+https://github.com/IBM/coursera/wiki/Environment-Setup
+
+Please import the following notebook into Watson Studio and work from there
+
+https://raw.githubusercontent.com/IBM/coursera/master/coursera_ds/assignment3.1.ipynb
+
+Once you are done you can export your work as python script using the name "assignment3.1.py" and submit it to the grader which you can see at the top under "My submission"
+

@@ -1,0 +1,22 @@
+Programming Assignment: Programming Assignment Week 4
+You have not submitted. You must earn 1/1 points to pass.
+Deadline	
+Pass this assignment by January 27, 11:59 PM PST
+InstructionsMy submissionDiscussions
+In this assignment you will
+
+create all necessary steps in order to prepare data for visualizing
+ensure you don't crash your plotting library by sampling subsets of your data
+prepare data for a histogram
+prepare data for a run chart
+An up to date version of grading environment setup is maintained here
+
+https://github.com/IBM/coursera/wiki/Environment-Setup
+
+Please import the following notebook into Watson Studio and work from there
+
+https://raw.githubusercontent.com/IBM/coursera/master/coursera_ds/assignment4.1.ipynb
+
+Once you are done you can export your work as python script using the name "assignment3.1.py" and submit it to the grader which you can see at the top under "My submission"
+
+Once you are done you can export your work as python script using the name "assignment4.1.py" and submit it to the grader which you can see at the top under "My submission"
