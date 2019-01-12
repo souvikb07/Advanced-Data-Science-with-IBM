@@ -1,0 +1,27 @@
+In this assignment you will
+
+Create an python based jupyter notebook using ApacheSpark on Watson Studio
+Deploy a test data generator and populate the database
+Access the previously stored data in Cloudant
+Count the number of measurements generated
+Count the number of fields contained in the data set
+Return a python array with the field names of the data set
+An up to date version of grading environment setup is maintained here
+
+https://github.com/IBM/coursera/wiki/Environment-Setup
+
+Please make sure you remove the demo-flow in NodeRED now and that you deploy the following two flows
+
+a0_m2_flow1.json
+
+a0_m2_flow2.json
+
+Which can be found here:
+
+https://github.com/IBM/coursera/tree/master/coursera_ds
+
+Just click on the hamburger menu in NodeRED, then select "import"->"clipboard" and past the contents of the JSON files...
+
+Please import the following notebook into Watson Studio and work from there
+
+https://raw.githubusercontent.com/IBM/coursera/master/coursera_ds/assignment2.1.ipynb
