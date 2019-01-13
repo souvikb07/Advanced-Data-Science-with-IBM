@@ -1,0 +1,46 @@
+Programming Assignment: ETL - from Smartphone to ObjectStore
+You have not submitted. You must earn 1/1 points to pass.
+i
+ 
+It looks like this is your first programming assignment.  Learn more
+
+Deadline	
+Pass this assignment by January 13, 11:59 PM PST
+InstructionsMy submissionDiscussions
+IBM Cloud is constantly changing and improving. But therefore the UI and setup procedures are constantly changing as well. For that reason we are keeping an updated set of videos ready for you on a weekly basis. These are by purpose hosted outside Coursera since based on their nature we can't always ensure the high quality standards of Coursera. Sometimes they are recorded during periods of business travel. Please check out the latest video summary of the environment setup
+
+https://github.com/IBM/coursera/wiki/Environment-Setup
+
+ETL - from Smartphone to NoSQL Database
+
+This assignment consists of two parts. In the first part you’ll use your previously deployed application and your smartphone to create a accelerometer (vibration) sensor data set and use NodeRED to store it in Apache CouchDB (Cloudant). In the 2nd part you’ll use ApacheSpark and jupyter to access this data and submit it to the grader.
+
+Part I
+
+1. Using the IBM Cloud Dashboard (bluemix.net) click on the discover-iot-sample app, then click on "Visit App URL" and then you should get the link to your mobile web app, in my case the link looks like this:
+
+http://discover-iot-sample-20180628142843866.mybluemix.net/iot-phone
+
+
+2. Open this URL from your smartphone and select "asdfghjk" as ID and also "asdfghjk" as password. The app will connect to the cloud using MQTT and you will see a counter telling you about the number of messages sent. Shake your phone a bit and then close the app again.
+
+
+4. Again, please use the IBM Cloud Dashboard but now click on iot-platform-bluemix-starter-*, then on View App URL
+
+
+5. You should see the Open Source ETL/Flow tool "NodeRED". Please click on the "debug" tab to see your data arriving
+
+
+6. Open Watson Studio and log-in on dataplatform.ibm.com
+
+7. Import the following Notebook into Watson Studio and follow the instructions in the Notebook – this will just load the data you’ve created, write the data frame to a parquet file and submit it to the grader.
+
+https://raw.githubusercontent.com/IBM/coursera/master/coursera_ml/AssignmentML1.ipynb
+
+You can also get a preview from the notebook if you are interested here:
+
+https://github.com/IBM/coursera/blob/master/coursera_ml/AssignmentML1.ipynb
+
+Here is a set of videos explaining everything
+
+https://www.coursera.org/learn/advanced-machine-learning-signal-processing/supplement/hYpCi/new-new-new-latest-video-summary-on-environment-setup

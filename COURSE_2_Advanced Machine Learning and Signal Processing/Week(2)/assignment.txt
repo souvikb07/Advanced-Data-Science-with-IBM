@@ -1,0 +1,50 @@
+Programming Assignment: Classification
+You have not submitted. You must earn 1/1 points to pass.
+Deadline	
+Pass this assignment by January 20, 11:59 PM PST
+InstructionsMy submissionDiscussions
+IBM Cloud is constantly changing and improving. But therefore the UI and setup procedures are constantly changing as well. For that reason we are keeping an updated set of videos ready for you on a weekly basis. These are by purpose hosted outside Coursera since based on their nature we can't always ensure the high quality standards of Coursera. Sometimes they are recorded during periods of business travel. Please check out the latest video summary of the environment setup
+
+https://github.com/IBM/coursera/wiki/Environment-Setup
+
+Classify data you’ve generated yourself!
+
+The purpose of this programming assignment is to learn how to classify a data set. You will generate this data set on your own.
+
+Here a summary what you will do.
+
+1. Using the data generation pipeline from the last assignment you will record two different movement patterns
+
+2. In NodeRED you will change the CLASS to “0” for one case and to “1” for the other case
+
+3. Train and tune an Apache SparkML classifier
+
+Please understand that in the discussion forum we can only support learners on the IBM Cloud – since we know this environment very well and it is the same for all learners.
+
+Please follow those steps:
+
+1. Make sure, that your smartphone app is connected and creates and sends data to the cloud
+
+2. Verify in NodeRED if your data is arriving using the debug panel of NodeRED
+
+3. In the “cloudant connector node” change the database from “shake” to “shake_classification”
+
+4. In the “function” node, please make sure you’ve set the CLASS to 0
+
+5. Click on “deploy”, make sure your phone lies on the table without further movement, please also make sure your screen doesn’t lock since this will the browser cause to stop sending data
+
+6. Keep it running for about 1000-2000 messages
+
+Now please repeat step 1-6 with the following differences (Note: It is very important that you don’t record data when you phone is lying on the table since it would confuse the classes, just make sure whenever you are recording CLASS 1 data that the phone continuously moves)
+
+1. In the “function” node change CLASS from 0 to 1.
+
+2. Click on “deploy” and again record 1000-2000 messages
+
+3. Now here comes the tricky part: Shake your phone as hard as you can in all three different axis and please make sure, before you stop shaking to change back the database name in the “cloudant connector node” to “shake” and click deploy
+
+So now you are all settled to implement your classifier and submit your solution to the grader by importing the following notebook into Watson Studio and follow the instructions there.
+
+https://raw.githubusercontent.com/IBM/coursera/master/coursera_ml/AssignmentML2.ipynb
+
+Again, you can have a look at the notebook here: https://github.com/IBM/coursera/blob/master/coursera_ml/AssignmentML2.ipynb
